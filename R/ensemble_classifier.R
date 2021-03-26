@@ -202,6 +202,7 @@ summary_performance <- function(predictions, dataset, print.summary = TRUE) {
 
 
   if (print.summary) {
+    print("Welcome to Lukas Package")
     print(paste("Classification error: ", round(class_error,4)))
     print(paste("Selected OWI : ", round(selected_error,4)))
     if (!is.null(weighted_error)) {
