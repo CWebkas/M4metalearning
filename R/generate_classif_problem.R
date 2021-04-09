@@ -48,7 +48,6 @@ THA_features <-
                                          "lumpiness",
                                          "nonlinearity",
                                          "pacf_features",
-                                         "stl_features",
                                          "stability",
                                          "hw_parameters_tsfeat_workaround",
                                          "unitroot_kpss",
